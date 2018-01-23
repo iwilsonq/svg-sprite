@@ -113,7 +113,6 @@ Of course you noticed the `config` variable passed to the constructor in the abo
 
 If you don't provide a configuration object altogether, *svg-sprite* uses built-in defaults for these properties, so in fact they are all optional. However, you will need to enable at least one **output mode** (`mode` property) to get reasonable results (i.e. a sprite of some type).
 
-
 ### General configuration options
 
 Many configuration properties (all except `mode`) apply to all sprites created by the same spriter instance. The default values are:
